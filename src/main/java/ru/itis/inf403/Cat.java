@@ -1,5 +1,5 @@
 package ru.itis.inf403;
 
-public class Cat {
+public class Cat extends Animal {
 
 }

@@ -1,6 +1,6 @@
 package ru.itis.inf403;
 
 
-public class Dog {
+public class Dog extends Animal{
 
 }
