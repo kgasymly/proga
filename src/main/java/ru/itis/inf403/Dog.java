@@ -15,9 +15,7 @@ public class Dog extends Animal {
         this.poroda = poroda;
     }
 
-    public void bark() {
-        System.out.println(name +": 'Гав гав'");
-    }
+
 
     public String getName() {
         return name;
@@ -41,6 +39,11 @@ public class Dog extends Animal {
 
     public void setPoroda(String poroda) {
         this.poroda = poroda;
+    }
+
+
+    public void bark() {
+        System.out.println(name +": 'Гав гав'");
     }
 
     public void eat() {
