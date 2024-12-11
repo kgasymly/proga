@@ -36,11 +36,14 @@ public class Bird extends Animal {
         this.vid = vid;
     }
 
+    @Override
     public void eat() {
-        System.out.println(name + " ест");
+        super.eat();
     }
+
+    @Override
     public void sleep() {
-        System.out.println(name + " спит");
+        super.sleep();
     }
 
     public void fly() {

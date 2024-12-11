@@ -1,10 +1,14 @@
 package ru.itis.inf403;
 
 public class Cat extends Animal {
+    @Override
     public void eat() {
-        System.out.println("Cat is eating");
+        super.eat();
     }
+
+    @Override
     public void sleep() {
-        System.out.println("Cat is sleeping");
+        super.sleep();
     }
 }
+
