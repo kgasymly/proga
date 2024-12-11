@@ -31,7 +31,7 @@ public class DomesticCats extends Cat {
         System.out.println("meow");
     }
     public void run() {
-        System.out.println(name + "бегает");
+        System.out.println(name + " бегает");
     }
     public void por() {
         System.out.println("порода у " + name + " : " + poroda);

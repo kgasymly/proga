@@ -32,18 +32,18 @@ public class PredatoryCats extends Cat {
         System.out.println(name + " R-r-r-r");
     }
     public void attack() {
-        System.out.println(name + "нападает на какое-то животное");
+        System.out.println(name + " нападает на какое-то животное");
     }
     public void hunt() {
-        System.out.println(name + "охотиться на какое-то животное");
+        System.out.println(name + " охотиться на какое-то животное");
     }
     public void victim() {
         System.out.println("Число жертв у " + name + " : " +  victims);
     }
 
     public static PredatoryCats[] createPredatoryCats() {
-        PredatoryCats predatoryCats1 = new PredatoryCats();
-        PredatoryCats predatoryCats2 = new PredatoryCats();
+        PredatoryCats predatoryCats1 = new PredatoryCats("Рысь" , 12);
+        PredatoryCats predatoryCats2 = new PredatoryCats("Леопард", 9);
         PredatoryCats[] arr4 = {predatoryCats1,predatoryCats2};
         return arr4;
     }
