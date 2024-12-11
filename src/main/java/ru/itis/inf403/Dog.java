@@ -44,15 +44,13 @@ public class Dog extends Animal {
     public void bark() {
         System.out.println(name +": 'Гав гав'");
     }
-
     @Override
     public void eat() {
-        super.eat();
+        System.out.println(name + " кушает");
     }
-
     @Override
     public void sleep() {
-        super.sleep();
+        System.out.println(name + " спит");
     }
 
     public void coatColor() {
