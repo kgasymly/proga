@@ -12,6 +12,31 @@ public class Bird extends Animal {
         this.coatColor = coatColor;
         this.vid = vid;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getCoatColor() {
+        return coatColor;
+    }
+
+    public String getVid() {
+        return vid;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCoatColor(String coatColor) {
+        this.coatColor = coatColor;
+    }
+
+    public void setVid(String vid) {
+        this.vid = vid;
+    }
+
     public void eat() {
         System.out.println("Bird is eating");
     }
@@ -23,5 +48,6 @@ public class Bird extends Animal {
         System.out.println("Bird is flying");
     }
 
+    public static
 
 }
