@@ -47,6 +47,4 @@ public class PredatoryCats extends Cat {
         PredatoryCats[] arr4 = {predatoryCats1,predatoryCats2};
         return arr4;
     }
-
-
 }
