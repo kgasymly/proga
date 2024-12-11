@@ -32,22 +32,26 @@ public class Bird extends Animal {
     public void setCoatColor(String coatColor) {
         this.coatColor = coatColor;
     }
-
     public void setVid(String vid) {
         this.vid = vid;
     }
 
     public void eat() {
-        System.out.println("Bird is eating");
+        System.out.println(name + " ест");
     }
     public void sleep() {
-        System.out.println(name + "спит");
+        System.out.println(name + " спит");
     }
 
     public void fly() {
-        System.out.println("Bird is flying");
+        System.out.println(name + " летает");
     }
 
-    public static
+    public static Bird[] createBirds() {
+        Bird bird1 = new Bird("Ястреб", "коричневый", "хищный");
+        Bird bird2 = new Bird("Попугай", "разноцветный","попугаеобразный");
+        Bird[] arr2 = {bird1,bird2};
+        return arr2;
+    }
 
 }

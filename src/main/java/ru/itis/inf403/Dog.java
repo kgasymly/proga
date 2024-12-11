@@ -6,8 +6,7 @@ public class Dog extends Animal {
     public String coatColor;
     public String poroda;
 
-    public Dog() {
-    }
+    public Dog() {}
 
     public Dog(String name, String coatColor, String poroda) {
         this.name = name;
