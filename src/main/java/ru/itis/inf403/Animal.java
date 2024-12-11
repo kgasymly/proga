@@ -2,9 +2,9 @@ package ru.itis.inf403;
 
 public class Animal {
     public void eat () {
-        System.out.println("Animal is eating");
+        System.out.println("Животное кушает");
     }
     public void sleep() {
-        System.out.println("Animal is sleeping");
+        System.out.println("Животное кушает");
     }
 }
