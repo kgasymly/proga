@@ -13,6 +13,13 @@ public class Main {
         Bird[] arr2 = Bird.createBirds();
         Bird b1 = arr2[0];
         Bird b2 = arr2[1];
+        DomesticCats[] arr3 = DomesticCats.createDomesticCats();
+        DomesticCats dc1 = arr3[0];
+        DomesticCats dc2 = arr3[1];
+        PredatoryCats[] arr4 = PredatoryCats.createPredatoryCats();
+        PredatoryCats pc1 = arr4[0];
+        PredatoryCats pc2 = arr4[1];
+
         b2.eat();
         b2.sleep();
         b1.fly();

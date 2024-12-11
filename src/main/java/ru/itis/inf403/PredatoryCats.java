@@ -42,9 +42,9 @@ public class PredatoryCats extends Cat {
     }
 
     public static PredatoryCats[] createPredatoryCats() {
-        PredatoryCats pc1 = new PredatoryCats();
-        PredatoryCats pc2 = new PredatoryCats();
-        PredatoryCats[] arr4 = {pc1,pc2};
+        PredatoryCats predatoryCats1 = new PredatoryCats();
+        PredatoryCats predatoryCats2 = new PredatoryCats();
+        PredatoryCats[] arr4 = {predatoryCats1,predatoryCats2};
         return arr4;
     }
 

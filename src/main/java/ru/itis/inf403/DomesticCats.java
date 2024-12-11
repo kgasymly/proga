@@ -38,11 +38,9 @@ public class DomesticCats extends Cat {
     }
 
     public static DomesticCats[] createDomesticCats() {
-        DomesticCats dc1 = new DomesticCats("Буся", "Швейцарский кот");
-        DomesticCats dc2 = new DomesticCats("АйсКьюб", "Британский кот");
-        DomesticCats[] arr3 = {dc1,dc2};
+        DomesticCats domesticCats1 = new DomesticCats("Буся", "Швейцарский кот");
+        DomesticCats domesticCats2 = new DomesticCats("АйсКьюб", "Британский кот");
+        DomesticCats[] arr3 = {domesticCats1,domesticCats2};
         return arr3;
         }
     }
-
-}
