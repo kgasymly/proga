@@ -37,4 +37,12 @@ public class DomesticCats extends Cat {
         System.out.println("порода у " + name + " : " + poroda);
     }
 
+    public static DomesticCats[] createDomesticCats() {
+        DomesticCats dc1 = new DomesticCats("Буся", "Швейцарский кот");
+        DomesticCats dc2 = new DomesticCats("АйсКьюб", "Британский кот");
+        DomesticCats[] arr3 = {dc1,dc2};
+        return arr3;
+        }
+    }
+
 }

@@ -41,5 +41,12 @@ public class PredatoryCats extends Cat {
         System.out.println("Число жертв у " + name + " : " +  victims);
     }
 
+    public static PredatoryCats[] createPredatoryCats() {
+        PredatoryCats pc1 = new PredatoryCats();
+        PredatoryCats pc2 = new PredatoryCats();
+        PredatoryCats[] arr4 = {pc1,pc2};
+        return arr4;
+    }
+
 
 }
