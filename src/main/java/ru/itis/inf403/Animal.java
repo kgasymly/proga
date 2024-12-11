@@ -5,6 +5,6 @@ public class Animal {
         System.out.println("Животное кушает");
     }
     public void sleep() {
-        System.out.println("Животное кушает");
+        System.out.println("Животное спит");
     }
 }
