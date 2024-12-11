@@ -28,7 +28,7 @@ public class DomesticCats extends Cat {
     }
 
     public void purring() {
-        System.out.println("meow");
+        System.out.println(name + ": meow");
     }
     public void run() {
         System.out.println(name + " бегает");

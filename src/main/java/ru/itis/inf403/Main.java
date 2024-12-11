@@ -44,12 +44,12 @@ public class Main {
         b2.sleep();
         b2.fly();
 
-        dc1.purring();
         dc1.run();
+        dc1.purring();
         dc1.por();
 
-        dc2.purring();
         dc2.run();
+        dc2.purring();
         dc2.por();
 
         pc1.growl();
