@@ -29,34 +29,34 @@ public class Main {
         d1.eat();
         d1.sleep();
         d1.bark();
-
+        System.out.println();
         d2.coatColor();
         d2.poroda();
         d2.eat();
         d2.sleep();
         d2.bark();
-
+        System.out.println();
         b1.eat();
         b1.sleep();
         b1.fly();
-
+        System.out.println();
         b2.eat();
         b2.sleep();
         b2.fly();
-
+        System.out.println();
         dc1.run();
         dc1.purring();
         dc1.por();
-
+        System.out.println();
         dc2.run();
         dc2.purring();
         dc2.por();
-
+        System.out.println();
         pc1.growl();
         pc1.attack();
         pc1.hunt();
         pc1.victim();
-
+        System.out.println();
         pc2.growl();
         pc2.attack();
         pc2.hunt();
